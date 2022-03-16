@@ -1,0 +1,15 @@
+SYSTEM_PATH c:/mnadyukov/ папка с установленным приложением
+SYSTEM_IDENTIFICATOR TEST уникальный идентификатор данного экземпляра системы
+SERVER_PORT 3100 порт сервера
+HOST 127.0.0.1 хост сервера
+USER SYSDBA имя пользователя БД
+PASSWORD masterkey пароль пользователя БД
+DB_ENCODING WIN1251 кодировка текстовых данных БД
+SERVER_ENCODING Windows-1251 кодировка текстовых данных сервера
+DB_HOST 127.0.0.1 хост БД
+DB_PORT 3050 номер порта БД
+DB_FILE c:/mnadyukov/server/DB/TEST.FDB файл базы данных
+DB_ACCESS_TIMEOUT 120 время, в течение которого сервер обращается к БД; если по истечении времени обращение так и не произошло, запрашивающим методом генерируется ошибка; с
+DOCUMENT_PATH c:/mnadyukov/Documents/ каталог документов (договоров)
+ERROR_JOURNAL_PATH c:/mnadyukov/server/ERROR_JOURNAL/ каталог журналов ошибок
+ERROR_JOURNAL_MAX_FILE_SIZE 10 максимальный размер одного файла журнала ошибок; Mb
